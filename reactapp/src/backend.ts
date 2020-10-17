@@ -25,7 +25,7 @@ export const addImage = (image: Image) => {
     description: image.description,
   };
 
-  db.collection("image")
+  db.collection("images")
     .add(imageDocument)
     .then((docRef: any) => {
       console.log("Document written with ID: ", docRef.id);

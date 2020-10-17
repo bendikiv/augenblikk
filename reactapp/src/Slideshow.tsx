@@ -75,9 +75,6 @@ export const Slideshow = () => {
           height="100%"
         />
       </AnimatePresence>
-      <Heading position="absolute" zIndex="900" right="0" top="0" p="1rem">
-        Augenblikk
-      </Heading>
       <div className="next" onClick={() => paginate(1)}>
         {"‣"}
       </div>

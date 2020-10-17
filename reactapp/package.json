@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.5",
+    "@chakra-ui/icons": "^1.0.0-rc.5",
     "@popmotion/popcorn": "^0.4.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,6 +14,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "firebase": "^7.24.0",
+    "formik": "^2.2.0",
     "framer-motion": "^2.9.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
