@@ -2,8 +2,8 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
-import { images } from "./image-data";
 import { Box, Text, Heading } from "@chakra-ui/core";
+import { Image } from "./App";
 
 const variants = {
   enter: (direction: number) => {
@@ -26,7 +26,11 @@ const variants = {
   },
 };
 
-export const Slideshow = () => {
+interface SlideshowProps {
+  images: Image[];
+}
+
+export const Slideshow = ({ images }: SlideshowProps) => {
   const [[page, direction], setPage] = useState([0, 0]);
 
   // We only have 3 images, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and

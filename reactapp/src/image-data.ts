@@ -8,7 +8,7 @@ export const images: ImageData[] = [
   {
     url:
       "https://lh3.googleusercontent.com/sHmlxwEWlm7rl0BGguWUpmK5K-72lfxicbmULS6ASDUOfEfjH4taQqCCNZ_3HaWtR7TTPXrqFVOw8ZHmCZ54ZlbhrpdxthOWoQesVQFtkBcyHZSd7CtZlqAMyEm6uqta5hwianN82qO5RgVeCOf1AmjjwxO-cPGQ9w6uolNTNEGK1QDZ_AGxi6Fj6kYerF9h0qU6ySo2ZWLgx4yd9VB0qAeEBGt4PHtg68CT7PCtg4rSMGHy3N2kW-qrcjw4ZeQjHfwuT8jRNyP_PtjZNOhHZlvjfy6HalNYBmZT_tCVZ6r3IqHQ_2xABldhkDCu_RN7cwbLFZuLiteAo748mtPlyrj7NvCGAPJHR_lr4o-PK2urKDlHhKNFtjFldo9XMXbaK42bXnNQmJXZiT-26fZG4O14zMNkgmxF5kYjJ9czFL0nsm-qhfnPTJMQT3QnZC7xvz2JBvCN11S6NHCE-RV477BXV-S6-O0B6vGyV0GNOP22Ysahx-cWYNmoRIKYCUza7QgtMeyeTP5mmLl5Qu9AjwCcy-FFrqHORisHUUXxPG9gwol1agPfOwvwUtmZQxyOU-8rpmH6P1nr6ej1dUyCVW3aNbUqEsFY-WgXDXrCvDhz9w5T-0JwSrlr6HhwX3iZQHIJyySjKdo7BW5fkzMmJVryLUN563h9mHcAz79IhRGIR6Bptc8Rga8dI8QpJw=w3840-h1868-no?authuser=0",
-    description: "Joggetur i Lillomarka. Solnedgang fra Linderudkollen",
+    description: "Joggetur i Lillomarka. Solnedgang fra Linderudkollen.",
   },
   {
     url:
