@@ -2,9 +2,10 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
-import { Box, Text, Heading, Spinner } from "@chakra-ui/core";
+import { Box, Text, Heading, Spinner, IconButton } from "@chakra-ui/core";
 import { Image } from "./App";
 import { useStore } from "./ImageStore";
+import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 
 const variants = {
   enter: (direction: number) => {
@@ -75,12 +76,28 @@ export const Slideshow = () => {
           height="100%"
         />
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)}>
-        {"‣"}
-      </div>
-      <div className="prev" onClick={() => paginate(-1)}>
-        {"‣"}
-      </div>
+      <IconButton
+        aria-label="Forward icon button"
+        icon={<ArrowForwardIcon />}
+        onClick={() => paginate(1)}
+        isRound={true}
+        position="absolute"
+        right="0"
+        zIndex="900"
+        mr="1rem"
+        size="sm"
+      />
+      <IconButton
+        aria-label="Back icon button"
+        icon={<ArrowBackIcon />}
+        onClick={() => paginate(-1)}
+        isRound={true}
+        position="absolute"
+        left="0"
+        zIndex="900"
+        ml="1rem"
+        size="sm"
+      />
       <Box
         position="absolute"
         bottom="0"
