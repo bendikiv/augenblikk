@@ -5,13 +5,6 @@ import { Slideshow } from "./Slideshow";
 import { ImageStoreProvider } from "./ImageStore";
 import { AddImage } from "./AddImage";
 
-export interface Image {
-  id?: string;
-  url: string;
-  description: string;
-  date?: Date;
-}
-
 function App() {
   return (
     <div className="app-container">

@@ -1,6 +1,6 @@
 import { db } from "./firebase";
-import { Image } from "./App";
 import { staticImages } from "./image-data";
+import { Image } from "./ImageStore";
 
 export interface ImageDocument {
   id?: string;
