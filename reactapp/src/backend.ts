@@ -1,5 +1,6 @@
 import { db } from "./firebase";
 import { Image } from "./App";
+import { staticImages } from "./image-data";
 
 export interface ImageDocument {
   id?: string;
@@ -7,7 +8,11 @@ export interface ImageDocument {
   description: string;
 }
 
+const IS_DEV = false;
+
 export const getAllImages = async () => {
+  if (IS_DEV) return staticImages;
+
   let imagesRef = db.collection("images");
   let images = await imagesRef.get();
 
