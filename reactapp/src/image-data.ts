@@ -27,4 +27,9 @@ export const images: ImageData[] = [
     description:
       "Søskentur til Trysil. Jeg og Herman shredder stiene på sykkel.",
   },
+  {
+    url:
+      "https://lh3.googleusercontent.com/aSATowLbZG__t7fGFZjbf3UQV4eZi-2n7GNkbpcjlieKA9PRkLS1ZfBlmLdKLQ7SUTSZI1WdtRsXCCudcYVTgMvaqRkZebm3LgJ3iqhdCgkSordFJYCja0wSyixBggvt5dGBz6hnDNJcJPN1g6FJUBkMZ6Yt-TOROKbThcHWy1a4A9RbGGvwksIugZfReG9YWvAU7SAXK_UooYygtlekwh1GcOUzDH_Vx0CWVgAIYvF4-Yi8r5iuKWIa_zQ3AsSuoSjSCfwRNIAgOTLyizu0cjO8-MzBLpNzzIitqHpm4lolReGJ_lw625FEM92WUSeTbYmui5SUK9bC6gR7DZs40tq_Cbdq9Bfe3b22t8m50MmrFTxAFxvBlxkiflJqndXK9E5ILUbm4YT0SuvIN1T3fABIdeGJp1sI8OZIvFBYTwkh_pq1jKd91q9S0wmfE0LUSumfh5HsMjk3DC7vZB3yRFcXeRiaGytBhSkRs5fNwCVanty3LbZ9U49KxORvj7iPIA0QWtEfjqj-2wsT0Atz2AEVimrO6UUG_KHmzSuAdEhGI_OiYwJFqvz8OZH1iigtqjk1LQgNfMcWi2How6HUOG0FWiyXnINscYgblMwYcYUsDeq7ZNsw9xjkbk0Zv6JACaXK3RFtgXCGxW5WNfRcFCMgMzGcEIIri_HHb_s50aQ796qoWUflH3w5ERPL6Q=w2856-h2000-no?authuser=0",
+    description: "Jeg og søs på lavterskel telttur til Store Skillingen.",
+  },
 ];

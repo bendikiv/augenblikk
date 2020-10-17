@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
 import { images } from "./image-data";
-import { Box, Text } from "@chakra-ui/core";
+import { Box, Text, Heading } from "@chakra-ui/core";
 
 const variants = {
   enter: (direction: number) => {
@@ -35,6 +35,13 @@ export const Slideshow = () => {
   // detect it as an entirely new image. So you can infinitely paginate as few as 1 images.
   const imageIndex = wrap(0, images.length, page);
 
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setPage([page + 1, 1]);
+    }, 10 * 1000);
+    return () => clearInterval(interval);
+  }, [page]);
+
   const paginate = (newDirection: number) => {
     setPage([page + newDirection, newDirection]);
   };
@@ -52,6 +59,9 @@ export const Slideshow = () => {
           exit="exit"
           height="100%"
         />
+        <Heading position="absolute" zIndex="900" right="0" top="0" p="1rem">
+          Augenblikk
+        </Heading>
       </AnimatePresence>
       <div className="next" onClick={() => paginate(1)}>
         {"‣"}
