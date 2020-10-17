@@ -2,8 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
-import { Box, Text, Heading, Spinner, IconButton } from "@chakra-ui/core";
-import { Image } from "./App";
+import { Box, Text, Spinner, IconButton } from "@chakra-ui/core";
 import { useStore } from "./ImageStore";
 import { ArrowForwardIcon, ArrowBackIcon } from "@chakra-ui/icons";
 
@@ -28,12 +27,8 @@ const variants = {
   },
 };
 
-interface SlideshowProps {
-  images: Image[];
-}
-
 export const Slideshow = () => {
-  const { images, isLoadingImages, addImage } = useStore();
+  const { images, isLoadingImages } = useStore();
 
   const [[page, direction], setPage] = useState([0, 0]);
   const [imageList, setImageList] = useState(images);

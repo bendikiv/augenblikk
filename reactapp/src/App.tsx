@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-import { ChakraProvider, Heading, IconButton } from "@chakra-ui/core";
+import { ChakraProvider, Heading } from "@chakra-ui/core";
 import { Slideshow } from "./Slideshow";
 import { ImageStoreProvider } from "./ImageStore";
-import { AddIcon } from "@chakra-ui/icons";
 import { AddImage } from "./AddImage";
 
 export interface Image {
