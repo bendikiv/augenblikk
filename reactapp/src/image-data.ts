@@ -1,0 +1,24 @@
+interface ImageData {
+  url: string;
+  description: string;
+  date?: Date;
+}
+
+export const images: ImageData[] = [
+  {
+    url:
+      "https://lh3.googleusercontent.com/sHmlxwEWlm7rl0BGguWUpmK5K-72lfxicbmULS6ASDUOfEfjH4taQqCCNZ_3HaWtR7TTPXrqFVOw8ZHmCZ54ZlbhrpdxthOWoQesVQFtkBcyHZSd7CtZlqAMyEm6uqta5hwianN82qO5RgVeCOf1AmjjwxO-cPGQ9w6uolNTNEGK1QDZ_AGxi6Fj6kYerF9h0qU6ySo2ZWLgx4yd9VB0qAeEBGt4PHtg68CT7PCtg4rSMGHy3N2kW-qrcjw4ZeQjHfwuT8jRNyP_PtjZNOhHZlvjfy6HalNYBmZT_tCVZ6r3IqHQ_2xABldhkDCu_RN7cwbLFZuLiteAo748mtPlyrj7NvCGAPJHR_lr4o-PK2urKDlHhKNFtjFldo9XMXbaK42bXnNQmJXZiT-26fZG4O14zMNkgmxF5kYjJ9czFL0nsm-qhfnPTJMQT3QnZC7xvz2JBvCN11S6NHCE-RV477BXV-S6-O0B6vGyV0GNOP22Ysahx-cWYNmoRIKYCUza7QgtMeyeTP5mmLl5Qu9AjwCcy-FFrqHORisHUUXxPG9gwol1agPfOwvwUtmZQxyOU-8rpmH6P1nr6ej1dUyCVW3aNbUqEsFY-WgXDXrCvDhz9w5T-0JwSrlr6HhwX3iZQHIJyySjKdo7BW5fkzMmJVryLUN563h9mHcAz79IhRGIR6Bptc8Rga8dI8QpJw=w3840-h1868-no?authuser=0",
+    description: "Joggetur i Lillomarka. Solnedgang fra Linderudkollen",
+  },
+  {
+    url:
+      "https://lh3.googleusercontent.com/mIIKfcpctzIY0G4E-wLfdVZVSParLpU--ef0KTpjWwyshWXSuZNWD_MWkfYNxSOiER-87q1zI6h6kCpiamTVlxrnxqI-uuRWcrPPx-OjLUk4wt98OsE0xoFhlVVO8GI3HDDseK9OPQ5LGkQ1PI0EfuDRopEyKWxJ1Czk88d-DNTUXtr-P5bAwVgLrHGFFUKJ52re4Zkk42VDzUYOT_qukXcHJY4wagReJKaTrjZVCkIyyWRmAEjaanFbLYbUA3MXE_pLTA6Eysj36itIC6bHLr-SRDMBt2z2LPFHw_wmGuyAV4u2Ym3bnFVwfuEVs9mgK6OdnqlpkXyU4j403_Uc-ZBtgOdFKndFNVg4qZ5RQzr2TcM6NQLVWvao0wSPmgMny-1PqgcA3QRQn0zCCmjOn8LEMQwtUQV_hx2YHL_-4NwX88hfzeeJa4t1EicUvdCAKUry9iNlNIPdV3DTXthgMw1VDYbPnUvdwaJZr8cgj4BhXhyQMk8Ijopodx-TIP6FyBD1iVSPAW_44GrMm0SIfh_D5a7oJd6i04yra89AAygBYhd6zy7IJdwJwRjkEN_tjSsvVw6S6uMOGxe-qOGRwo-vXOQUu6QimCeJ30ZXNsyz9ABi50QesCtlRvPgNKp-Behk9oteLllP_VEN-8qEERLUHvDJuQMPR4BzB35QdJf-em0VlRU4r05Wemp22w=w2992-h1900-no?authuser=0",
+    description: "Sykkeltur opp til Grefsenkollen, sinnsykt fin solnedgang",
+  },
+
+  {
+    url:
+      "https://lh3.googleusercontent.com/jtWefFAODzTpjJIPLmTKwlgJI8KJmCRuuyNfnHqNebTR-Cpidsa4z0DAomz81G1Tk7qN7UhmRSTassd8zvxUja2Zm1H6IpJoAyzD86Joey4sHCO5v62bjeCPLFOHDuZRFKV5QwrHVJui8hVjKCN8j96efoRQyENuwSuBqKr4cNxiu-Qplj-OUm27w0EKTuxTbI-1g_5-PR_ABZMw4eNfd2gRQgcFZt2-YUetoeL9zwwNC-jxwTj27Lb8ZkzQfyJ2xEWN9MpaWgADG_Nk583_9mYdOWknw_q6TYyMvAZ_wafv8eysnPjY2ZLLCOClBrpxSc2EpJCNcacrVSSo9RxFfFmQkOd_cenIKLsZVq6QjmOCjToHzPZ9D7FjtdaUPgzaOjNfZjd2xiXPxdxqAhKHCzZeGkWTZgjrgv-6OY7ug1B2yZEbU7FVLqivxg30JAv4HI_MqO2aGGBCu3qKFyvwsSL0zTtEXpKYYnuj9fzNgCootfQi4jkpmxitjcnUlCpby0kL4xusqJsWSY-jSjuLkU8BmdGLROW91UwK7CpyQ_fiNxVPSedyF72EONhTheO5S3VbFC6qm6L5_XHtaM6EuCJ-3PHxbi1VdNpCoG9tyFaoArO0deGdUsr930gFDI8Jik8XszNx_RSNKzX91cF5i6ex6Vu4R1rfM9d4lcx4c1_Q5K-JgzBwR24ZRDscCw=w3840-h1868-no?authuser=0",
+    description: "Helgetur til Hardangervidda/Kalhovd i deilig høstvær",
+  },
+];
