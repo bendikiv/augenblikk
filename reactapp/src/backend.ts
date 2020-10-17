@@ -8,7 +8,7 @@ export interface ImageDocument {
   description: string;
 }
 
-const IS_DEV = true;
+const IS_DEV = false;
 
 export const getAllImages = async () => {
   if (IS_DEV) return staticImages;
