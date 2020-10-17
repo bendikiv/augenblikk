@@ -1,4 +1,5 @@
 import { db } from "./firebase";
+import { Image } from "./App";
 
 export interface ImageDocument {
   id?: string;
@@ -7,15 +8,20 @@ export interface ImageDocument {
 }
 
 export const getAllImages = async () => {
-  let gearRef = db.collection("images");
-  let allGear = await gearRef.get(); //.then((imgs: any) => console.log(imgs));
+  let imagesRef = db.collection("images");
+  let images = await imagesRef.get();
 
-  return allGear.docs.map((d: any) => d.data());
+  return images.docs.map((d: any) => d.data());
 };
 
-export const addImage = (image: ImageDocument) => {
+export const addImage = (image: Image) => {
+  const imageDocument: ImageDocument = {
+    url: image.url,
+    description: image.description,
+  };
+
   db.collection("image")
-    .add(image)
+    .add(imageDocument)
     .then((docRef: any) => {
       console.log("Document written with ID: ", docRef.id);
     })
