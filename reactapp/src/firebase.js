@@ -13,5 +13,10 @@ const firebaseConfig = {
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-
 export const db = firebaseApp.firestore();
+
+const googleProvider = new firebase.auth.GoogleAuthProvider();
+
+export const signInWithGoogle = () => {
+  firebase.auth().signInWithPopup(googleProvider);
+};

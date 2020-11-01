@@ -14,6 +14,10 @@ img {
   position: absolute;
 }
 
+.signup-link {
+  text-decoration: underline;
+}
+
 .app-container {
   background: #273036;
   width: 100vw;
